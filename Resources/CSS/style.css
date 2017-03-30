@@ -1,0 +1,64 @@
+body {
+  margin: 0 auto;
+  max-width: 1000px;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #555;
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(240,240,240);
+}
+
+.brushes, .frames, .paint {
+  padding: 40px;
+  display: inline-table;
+  max-width: 250px;
+  background-color: rgb(230,230,230);
+}
+
+.header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px
+}
+
+h1 {
+color: rgb(0,71,102);
+text-align: center;
+font-size: 60px;
+padding-top: 20px;
+}
+
+h2{
+  color: rgb(250,250,200);
+  max-width: 250px;
+  text-align: center;
+  background-color: black;
+}
+h3 {
+  color: black;
+  text-align: center;
+}
+
+.blue {
+  color: blue;
+}
+
+
+/* trying different styles wiht the h2 tag
+
+}
+.brushes h2 {
+  background-color: lightgreen;
+}
+
+.frames h2 {
+  background-color: lightcoral;
+}
+
+.paint h2 {
+  background-color: skyblue;
+}
+*/
