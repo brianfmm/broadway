@@ -1,64 +1,107 @@
+
 body {
   margin: 0 auto;
-  max-width: 1000px;
-  line-height: 1.5;
-  padding: 4em 1em;
-  color: #555;
-  font-family: Helvetica, sans-serif;
-  background-color: rgb(240,240,240);
+  padding: 4em;
+  background-color: rgb(210, 230, 255);
 }
 
-.brushes, .frames, .paint {
-  padding: 40px;
-  display: inline-table;
-  max-width: 250px;
-  background-color: rgb(230,230,230);
+/* header image */
+.header {
+  color: white;
+  /*for some reason the path to this image would not work on my computer, so I did an external link*/
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
 }
+
+/* typography */
 
 .header {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
-  background-size: cover;
-  background-position: center;
-  height: 200px;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px
+  text-align: center;
+  color: white;
+}
+
+.body {
+  text-align: center;
+  color: rgb(0,50,100)
+}
+
+h2, h3, h4 {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+
+h3, h2 {
+  font-size: 40px;
+}
+
+p, ul, .footer {
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-color: rgb(0,71,102);
-text-align: center;
-font-size: 60px;
-padding-top: 20px;
+  font-weight: 900;
+  font-family: 'Merriweather', serif;
+  font-size: 40px;
+  padding-top: 20px;
 }
 
-h2{
-  color: rgb(250,250,200);
-  max-width: 250px;
-  text-align: center;
-  background-color: black;
-}
-h3 {
-  color: black;
-  text-align: center;
+p {
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
 
-.blue {
-  color: blue;
+h2 {
+  font-weight: 700;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  color: white;
+}
+
+h4 {
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+hr {
+  border-color: rgb(0,50,100);
+  max-width: 300px
+}
+
+/* footer */
+
+.footer li {
+  float: left;
+}
+
+.footer a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+}
+
+#footer_copyright {
+  display: block;
+  padding: 10px;
+  color: white;
 }
 
 
-/* trying different styles wiht the h2 tag
 
-}
-.brushes h2 {
-  background-color: lightgreen;
-}
 
-.frames h2 {
-  background-color: lightcoral;
-}
 
-.paint h2 {
-  background-color: skyblue;
-}
-*/
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Merriweather', serif;
